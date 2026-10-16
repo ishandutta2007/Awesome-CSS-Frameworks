@@ -1,189 +1,138 @@
-# Awesome-CSS-Frameworks
-
-## Top CSS Frameworks Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Utility-First Styling, Component Libraries & Design Systems*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **CSS Frameworks**. These tools enable developers to build responsive, maintainable user interfaces—from utility-first systems that generate only the CSS you use to component libraries that ship pre-built UI elements out of the box.
-
-
-
-**Examples** include Tailwind CSS, Bootstrap, Bulma, Foundation, Material-UI, Chakra UI, Ant Design, Semantic UI, PureCSS, and UIkit (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, utility-first styling, and open component systems—ideal for frontend developers, design engineers, and organizations seeking transparent, vendor-independent styling infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Tailwind Plus](https://tailwindcss.com/plus)**  
-
-  **Premium component library and templates for Tailwind CSS** — the commercial companion to Tailwind CSS. Features **500+ professionally designed UI components**, **full website templates**, and **access to the Tailwind team's design expertise**. **Note**: Closed to new customers as of the Shopify acquisition (September 2026) — existing customers retain access, but the paid tier is no longer available for purchase .
-
-
-
-- **[Bootstrap Themes](https://themes.getbootstrap.com/)**  
-
-  **Official premium themes for Bootstrap** — commercial themes built by the Bootstrap team and verified partners. Features **responsive designs**, **documentation**, and **support**.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Bootstrap](https://github.com/twbs/bootstrap)**  
-
-  **The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web** (MIT) — **174,000+ GitHub stars** and **22.4 million weekly npm downloads** . **The safe, predictable choice** — every frontend developer knows Bootstrap, every component is battle-tested, and the documentation is among the best in open source . **Version 5** dropped jQuery, added **CSS custom properties for theming**, introduced a **utility API**, and added **RTL support**. **Strengths**: **pre-built components** (navbar, modals, carousels, accordions, tooltips, offcanvas), **speed-to-market** for admin dashboards and internal tools, and **53 KB gzipped** (CSS + JS) . **Weakness**: the recognizable "Bootstrap look" requires significant CSS overrides to escape . **The reference implementation for component-based CSS frameworks**.
-
-
-
-- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)**  
-
-  **A utility-first CSS framework for rapidly building custom user interfaces** (MIT) — **97,789 GitHub stars** and **163 million weekly npm downloads** . **The default choice for new web projects in 2026** — **51% usage in State of CSS 2025** . **Version 4** replaced JavaScript-based configuration with a **CSS-native engine** (`@theme` directives), **dropped PostCSS**, and introduced the **Oxide (Rust) engine** delivering **~5× faster full builds** and **~100× faster incremental builds** . **Key advantage**: the engine only generates CSS for classes found in source files, resulting in **production bundles of 6-12 KB** — versus Bootstrap's 30 KB+ where you ship styles for components you never touch . **Ecosystem**: **shadcn/ui** (copy-paste components), **DaisyUI** (semantic class names), **Headless UI** (accessible unstyled components), **tailwind-merge** (deterministic class conflict resolution), **CVA** (typed variant API) . **The reference implementation for utility-first CSS**.
-
-
-
-- **[Bulma](https://github.com/jgthms/bulma)**  
-
-  **Modern CSS framework based on Flexbox** (MIT) — **50,000+ GitHub stars** . **The zero-JavaScript choice** — provides Bootstrap-like components with modern Flexbox layouts but ships **no JavaScript**. Every interactive behavior (dropdowns, modals, tabs) is your responsibility . **Best for**: projects using React, Vue, or any framework where you want full control over interactive behavior.
-
-
-
-- **[Foundation](https://github.com/foundation/foundation-sites)**  
-
-  **The most advanced responsive front-end framework in the world** (MIT) — **29,000+ GitHub stars**. **The enterprise choice** — used by Facebook, eBay, Mozilla, and Adobe. Features **responsive grid**, **motion UI**, **email framework**, and **extensive component library**. **Moderate learning curve** but **extensive components** .
-
-
-
-- **[Material-UI (MUI)](https://github.com/mui/material-ui)**  
-
-  **React components for faster and easier web development** (MIT) — **the most popular React component library**. Implements **Google's Material Design** with **extensive theming capabilities**, **CSS-in-JS styling**, and **accessible components**. **Best for**: React applications wanting a complete, opinionated design system.
-
-
-
-- **[Chakra UI](https://github.com/chakra-ui/chakra-ui)**  
-
-  **Simple, modular and accessible component library for React** (MIT) — **the developer-experience choice**. Features **style props for rapid styling**, **built-in dark mode**, **accessible components by default**, and **theme customization via design tokens**. **Best for**: teams wanting a flexible, accessible React component library with excellent DX.
-
-
-
-- **[Ant Design](https://github.com/ant-design/ant-design)**  
-
-  **An enterprise-class UI design language and React UI library** (MIT) — **the enterprise React choice** from Alibaba. Features **60+ components**, **internationalization support**, **theme customization**, and **TypeScript definitions**. **Best for**: enterprise React applications, especially those targeting Chinese markets.
-
-
-
-- **[PureCSS](https://github.com/pure-css/pure)**  
-
-  **A set of small, responsive CSS modules** (BSD-3-Clause) — **24,000+ GitHub stars**. **The minimalist choice** — **~3.5 KB gzipped** for the full framework. Features **grid**, **forms**, **menus**, and **tables** without any JavaScript . **Best for**: projects wanting minimal CSS footprint with essential components.
-
-
-
-- **[UIkit](https://github.com/uikit/uikit)**  
-
-  **A lightweight and modular front-end framework** (MIT) — **18,000+ GitHub stars**. Features **50+ components**, **JavaScript components**, and **~31 KB gzipped CSS + 53 KB JS** . **Best for**: teams wanting a comprehensive component framework with moderate footprint.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Pico CSS](https://github.com/picocss/pico)** — **Minimal CSS Framework for semantic HTML** (MIT) — **13,700+ GitHub stars** . **The classless choice** — style semantic HTML elements without adding classes. **Best for**: quick prototypes, Markdown-generated sites, and minimal CSS footprint.
-
-- **[DaisyUI](https://github.com/saadeghi/daisyui)** — **The most popular component library for Tailwind CSS** (MIT). **Adds semantic class names on top of Tailwind utilities** — `btn`, `card`, `modal` instead of composing 20 utilities . **Best for**: teams wanting Tailwind's power with pre-built component class names.
-
-- **[shadcn/ui](https://github.com/shadcn-ui/ui)** — **Beautifully designed components you can copy and paste into your apps** (MIT). **The copy-paste model** — Radix UI primitives + Tailwind styling, owned by you, not a dependency . **Most popular React kit 2024-2025** .
-
-- **[Milligram](https://github.com/milligram/milligram)** — **A minimalist CSS framework** (MIT) — **10,200+ GitHub stars** and **~2.3 KB gzipped** . **The smallest full-featured choice**.
-
-- **[Skeleton](https://github.com/dhg/Skeleton)** — **A dead simple, responsive boilerplate** (MIT) — **19,000+ GitHub stars** and **~2.7 KB gzipped** . **Grid + typography only**.
-
-- **[Water.css](https://github.com/kognise/water.css)** — **A drop-in collection of CSS styles to make simple websites just a little nicer** (MIT) — **8,400+ GitHub stars** . **No classes needed** — style semantic HTML automatically.
-
-- **[Spectre.css](https://github.com/picturepan2/spectre)** — **A lightweight, responsive and modern CSS framework** (MIT) — **11,300+ GitHub stars** .
-
-- Community **n8n** workflows for design token synchronization and CSS build automation.
-
-
-
-**Frameworks for building custom systems**: Combine **Tailwind CSS** for utility-first styling with **shadcn/ui** for accessible React components, **DaisyUI** for semantic class names, **Headless UI** for unstyled interactive primitives, and **Style Dictionary** for design token transformation—creating a comprehensive modern CSS stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CSS frameworks must respect licensing terms, especially when bundling with commercial applications. **MIT and BSD licenses are permissive**; **GPL and AGPL require source disclosure** for derivative works.
-
-- **The utility-first vs. component-based distinction drives adoption.** **Tailwind CSS** (utility-first) is the default for new projects in 2026 with **51% usage in State of CSS 2025** . **Bootstrap** (component-based) remains the most widely deployed with **74.8% CSS framework market share** . **Choose based on whether you want design freedom or speed-to-market** .
-
-- **Bootstrap's dominance is declining but still substantial.** Market share dropped from **75.3% in October 2025 to 74.8% in October 2026** — a slow but steady erosion . Tailwind grew from **1.3% to 1.8%** in the same period . **Bootstrap remains the safe, predictable choice for enterprise and internal tools** .
-
-- **Bundle size matters more than ever.** **Tailwind produces 6-12 KB** gzipped for typical apps . **Bootstrap ships 53 KB** (CSS + JS) . **PureCSS is 3.5 KB** . **The difference compounds on mobile networks** — every kilobyte affects load time and user experience.
-
-- **The CSS-in-JS landscape has shifted.** **Runtime CSS-in-JS (styled-components, Emotion) is no longer recommended for new RSC projects** — they are incompatible with React Server Components and carry runtime costs . **Zero-runtime CSS-in-TS (vanilla-extract, StyleX, Panda CSS) is the modern alternative** .
-
-- **Tailwind v4 requires modern browsers.** **Safari 16.4+, Chrome 111+, Firefox 128+** — the `@property` and `color-mix()` features it relies on are baseline in these versions . **If you must support pre-2023 browsers, stay on Tailwind v3** .
-
-- Self-hosted open-source solutions require proper build configuration, design token management, and ongoing maintenance. **Frameworks are starting points** — invest in your design system and component conventions.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome CSS Frameworks Banner" width="100%" />
+</p>
+
+# 🎨 Awesome CSS Frameworks
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CSS-Frameworks?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CSS-Frameworks?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-CSS-Frameworks?color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🌟 Top CSS Frameworks Ecosystem
 
+**A Curated List of SaaS Products & Open-Source GitHub Projects for Modern Frontend Development**  
+*Covering Utility-First Styling, Responsive UI Component Libraries, Design Tokens & Design Systems.*  
+📅 **Last updated: October 2026**
 
-**Made for frontend developers, design engineers, and organizations building transparent CSS solutions.**  
+This repository tracks notable **SaaS platforms** and **open-source frameworks** for **CSS and Frontend UI engineering**. These tools enable developers to build accessible, lightning-fast, and maintainable user interfaces—from modern utility-first engines that purge unused styles to full-featured component systems and classless lightweight stylesheets.
 
-Let's make CSS Frameworks more open, data-driven, and maintainable.
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🚀 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+- [💡 Modern CSS Stack Recommendations](#-modern-css-stack-recommendations)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [⚠️ Disclaimer](#-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global web development software and frontend developer tooling sector is estimated at **$82.4 billion to $87.75 billion** (projected to reach over $160+ billion by the mid-2030s at an 8.5–9.4% CAGR), with dedicated frontend engineering toolchains and UI component frameworks capturing over $8 billion of that volume. 
+
+The market dynamics exhibit a **moderately fragmented yet top-heavy distribution**: while foundational web traffic is historically dominated by legacy giants like Bootstrap (~74.8% of deployed sites) and greenfield projects by Tailwind CSS (>50% developer mindshare), the broader ecosystem remains vibrant and fragmented across zero-runtime CSS-in-TS solutions, accessible unstyled primitives (Radix, Headless UI), and specialized enterprise React/Vue component libraries rather than a single winner-take-all monopoly.
+
+---
+
+## 💼 SaaS & Commercial Platforms
+
+| Platform | Valuation / Company Size | Starting Price | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Tailwind Plus](https://tailwindcss.com/plus)** | Parent company **Shopify** is valued at **~$100B+ market cap** *(Tailwind Labs acquired in Sept 2026; previously ~$4M–$5M ARR)* | **$299** one-time lifetime license (historical standalone; new public sales closed post-acquisition) | **Free forever tier**: Unlimited access to official Tailwind CSS open-source framework, core utilities, and documentation with 0-day free trial restrictions; commercial templates & UI components require existing paid license | Premium official component library and production-ready templates by Tailwind Labs. Features 500+ handcrafted accessible components, full page kits, and design assets. |
+| **[MUI X & Store](https://mui.com/pricing/)** | Bootstrapped market leader, **~$5M–$10M estimated annual revenue**, powers UI at Netflix, Amazon, Spotify | **$299 / developer / year** (MUI X Pro tier) | **Free forever community tier**: Community edition of MUI Core and basic MUI X Data Grid/Date Pickers free forever with MIT license; **30-day free evaluation** available for Pro/Premium features | Enterprise-grade advanced UI component suite (complex Data Grids, TreeViews, Charts, Date Range Pickers) alongside pre-built designer templates and Figma UI kits. |
+| **[Bootstrap Themes](https://themes.getbootstrap.com/)** | Bootstrap ecosystem *(run by core team & partners, supporting ~74.8% of all CSS web traffic worldwide)* | **$49** standard single-application license | **Free forever tier**: Entire open-source Bootstrap framework, 2,000+ Bootstrap Icons, docs, and basic examples are free forever (MIT); official marketplace themes provide **0 free trial days** (paid digital goods) | Official curated marketplace for commercial Bootstrap themes, admin dashboards, landing pages, and interactive UI applications built by verified creators. |
+
+---
+
+## 🚀 Open-Source GitHub Projects
+
+### ⭐ Ranked by GitHub Stars
+
+| Repository | GitHub Stars | License | Description |
+| :--- | :--- | :--- | :--- |
+| **[twbs/bootstrap](https://github.com/twbs/bootstrap)** | <a href="https://github.com/twbs/bootstrap/stargazers"><img src="https://img.shields.io/github/stars/twbs/bootstrap?style=social&color=white" alt="Bootstrap Stars" /></a> | MIT | 🌐 **The most popular HTML, CSS, and JS framework for responsive, mobile-first web projects.** Powers over 74% of known CSS framework websites. Version 5 features CSS custom properties, utility APIs, and zero jQuery dependency. |
+| **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** | <a href="https://github.com/shadcn-ui/ui/stargazers"><img src="https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white" alt="shadcn/ui Stars" /></a> | MIT | 🧩 **Beautifully designed, accessible components that you can copy and paste into your apps.** Combines Radix UI primitives with Tailwind CSS, giving developers direct source code ownership. |
+| **[ant-design/ant-design](https://github.com/ant-design/ant-design)** | <a href="https://github.com/ant-design/ant-design/stargazers"><img src="https://img.shields.io/github/stars/ant-design/ant-design?style=social&color=white" alt="Ant Design Stars" /></a> | MIT | 🏢 **An enterprise-class UI design language and comprehensive React UI library.** Maintained by the Ant Group/Alibaba open-source team, featuring 60+ modular components and i18n support. |
+| **[mui/material-ui](https://github.com/mui/material-ui)** | <a href="https://github.com/mui/material-ui/stargazers"><img src="https://img.shields.io/github/stars/mui/material-ui?style=social&color=white" alt="Material UI Stars" /></a> | MIT | ⚛️ **The premier React component library implementing Google's Material Design.** Offers rich theming, CSS utilities, production accessibility, and Joy UI/Base UI alternatives. |
+| **[tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)** | <a href="https://github.com/tailwindlabs/tailwindcss/stargazers"><img src="https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=social&color=white" alt="Tailwind CSS Stars" /></a> | MIT | ⚡ **A utility-first CSS framework for rapid modern UI development.** Version 4 features a high-performance Rust-powered Oxide engine, zero-config `@theme` directives, and tiny 6-12 KB production bundles. |
+| **[animate-css/animate.css](https://github.com/animate-css/animate.css)** | <a href="https://github.com/animate-css/animate.css/stargazers"><img src="https://img.shields.io/github/stars/animate-css/animate.css?style=social&color=white" alt="Animate.css Stars" /></a> | MIT | 🎬 **A cross-browser library of CSS animations.** As easy to use as an easy thing. Ideal for emphasis, homepages, sliders, and interactive web delights. |
+| **[necolas/normalize.css](https://github.com/necolas/normalize.css)** | <a href="https://github.com/necolas/normalize.css/stargazers"><img src="https://img.shields.io/github/stars/necolas/normalize.css?style=social&color=white" alt="Normalize.css Stars" /></a> | MIT | 🛠️ **A modern, HTML5-ready alternative to CSS resets.** Preserves useful browser defaults rather than un-styling everything, standardizing HTML elements across all engines. |
+| **[semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)** | <a href="https://github.com/semantic-org/semantic-ui/stargazers"><img src="https://img.shields.io/github/stars/semantic-org/semantic-ui?style=social&color=white" alt="Semantic UI Stars" /></a> | MIT | 🗣️ **UI component framework based on natural human language conventions.** Empowers developers to treat words and classes as exchangeable concepts. |
+| **[jgthms/bulma](https://github.com/jgthms/bulma)** | <a href="https://github.com/jgthms/bulma/stargazers"><img src="https://img.shields.io/github/stars/jgthms/bulma?style=social&color=white" alt="Bulma Stars" /></a> | MIT | 📦 **Modern CSS framework based on Flexbox with 0% JavaScript.** Provides clean semantic components without imposing any client-side JavaScript runtime or bundle overhead. |
+| **[saadeghi/daisyui](https://github.com/saadeghi/daisyui)** | <a href="https://github.com/saadeghi/daisyui/stargazers"><img src="https://img.shields.io/github/stars/saadeghi/daisyui?style=social&color=white" alt="daisyUI Stars" /></a> | MIT | 🌼 **The most popular component library plugin for Tailwind CSS.** Adds semantic classes like `btn`, `card`, and `modal` to speed up authoring without massive inline class lists. |
+| **[tabler/tabler](https://github.com/tabler/tabler)** | <a href="https://github.com/tabler/tabler/stargazers"><img src="https://img.shields.io/github/stars/tabler/tabler?style=social&color=white" alt="Tabler Stars" /></a> | MIT | 📊 **Premium open-source responsive dashboard and UI kit based on Bootstrap 5.** Fully responsive with clean code, dark mode, customizable vectors, and hundreds of ready components. |
+| **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)** | <a href="https://github.com/chakra-ui/chakra-ui/stargazers"><img src="https://img.shields.io/github/stars/chakra-ui/chakra-ui?style=social&color=white" alt="Chakra UI Stars" /></a> | MIT | ⚡ **Simple, modular and accessible component library for React applications.** Offers style props, built-in color mode management, and first-class WAI-ARIA compliance. |
+| **[foundation/foundation-sites](https://github.com/foundation/foundation-sites)** | <a href="https://github.com/foundation/foundation-sites/stargazers"><img src="https://img.shields.io/github/stars/foundation/foundation-sites?style=social&color=white" alt="Foundation Stars" /></a> | MIT | 🏗️ **The advanced responsive front-end framework for enterprise applications.** Built for robust multi-device layouts, email templates, and accessible interfaces. |
+| **[postcss/postcss](https://github.com/postcss/postcss)** | <a href="https://github.com/postcss/postcss/stargazers"><img src="https://img.shields.io/github/stars/postcss/postcss?style=social&color=white" alt="PostCSS Stars" /></a> | MIT | ⚙️ **A tool for transforming CSS with JavaScript plugins.** Powers Autoprefixer, CSS nesting, modern polyfills, and module workflows across millions of build systems. |
+| **[pure-css/pure](https://github.com/pure-css/pure)** | <a href="https://github.com/pure-css/pure/stargazers"><img src="https://img.shields.io/github/stars/pure-css/pure?style=social&color=white" alt="PureCSS Stars" /></a> | BSD-3-Clause | 🪶 **A set of small, responsive CSS modules (~3.5 KB gzipped).** Created by Yahoo, ideal for lightweight pages requiring responsive grids, forms, and tables without JavaScript. |
+| **[radix-ui/primitives](https://github.com/radix-ui/primitives)** | <a href="https://github.com/radix-ui/primitives/stargazers"><img src="https://img.shields.io/github/stars/radix-ui/primitives?style=social&color=white" alt="Radix UI Stars" /></a> | MIT | 🛡️ **Unstyled, accessible UI components for building high-quality design systems and web apps in React.** Backing engine for shadcn/ui and modern headless architectures. |
+| **[dhg/Skeleton](https://github.com/dhg/Skeleton)** | <a href="https://github.com/dhg/Skeleton/stargazers"><img src="https://img.shields.io/github/stars/dhg/Skeleton?style=social&color=white" alt="Skeleton Stars" /></a> | MIT | 💀 **A dead simple, responsive boilerplate (~2.7 KB gzipped).** Offers a clean 12-column grid and basic typography for quick static sites. |
+| **[uikit/uikit](https://github.com/uikit/uikit)** | <a href="https://github.com/uikit/uikit/stargazers"><img src="https://img.shields.io/github/stars/uikit/uikit?style=social&color=white" alt="UIkit Stars" /></a> | MIT | 🎨 **A lightweight and modular front-end framework.** Provides 50+ modular components with crisp visual styling and optional interactivity. |
+| **[picocss/pico](https://github.com/picocss/pico)** | <a href="https://github.com/picocss/pico/stargazers"><img src="https://img.shields.io/github/stars/picocss/pico?style=social&color=white" alt="Pico CSS Stars" /></a> | MIT | 🌿 **Minimal CSS Framework for semantic HTML without classes.** Turns vanilla HTML elements into responsive, dark-mode-ready modern pages automatically. |
+| **[primer/css](https://github.com/primer/css)** | <a href="https://github.com/primer/css/stargazers"><img src="https://img.shields.io/github/stars/primer/css?style=social&color=white" alt="Primer CSS Stars" /></a> | MIT | 🐙 **The official CSS framework that powers GitHub's front-end design system.** Implements modern utility classes, color tokens, and GitHub's battle-tested UI primitives. |
+| **[picturepan2/spectre](https://github.com/picturepan2/spectre)** | <a href="https://github.com/picturepan2/spectre/stargazers"><img src="https://img.shields.io/github/stars/picturepan2/spectre?style=social&color=white" alt="Spectre.css Stars" /></a> | MIT | 📐 **A lightweight, responsive and modern CSS framework (~10 KB gzipped).** Provides elegant flexbox layout, pure CSS components, and typography. |
+| **[milligram/milligram](https://github.com/milligram/milligram)** | <a href="https://github.com/milligram/milligram/stargazers"><img src="https://img.shields.io/github/stars/milligram/milligram?style=social&color=white" alt="Milligram Stars" /></a> | MIT | 🍃 **A minimalist CSS framework (~2 KB gzipped).** Designed for fast performance and clean aesthetics with minimal CSS specificity overrides. |
+| **[kognise/water.css](https://github.com/kognise/water.css)** | <a href="https://github.com/kognise/water.css/stargazers"><img src="https://img.shields.io/github/stars/kognise/water.css?style=social&color=white" alt="Water.css Stars" /></a> | MIT | 💧 **A drop-in classless collection of CSS styles.** Make semantic HTML look instantly beautiful with automatic light/dark mode and no custom classes needed. |
+| **[sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize)** | <a href="https://github.com/sindresorhus/modern-normalize/stargazers"><img src="https://img.shields.io/github/stars/sindresorhus/modern-normalize?style=social&color=white" alt="Modern Normalize Stars" /></a> | MIT | 🧼 **Normalize browser default styles for modern browsers only.** Streamlined, zero-cruft baseline used by Tailwind CSS and modern bundlers. |
+
+---
+
+## 💡 Modern CSS Stack Recommendations
+
+- **Utility-First Speed**: Combine **Tailwind CSS v4** with **DaisyUI** or **shadcn/ui** to achieve complete styling control without writing custom CSS files.
+- **Enterprise Design Systems**: Use **Radix UI** or **MUI Core** integrated with design tokens via **Style Dictionary**.
+- **Minimalist & Zero-Build Sites**: Adopt classless stylesheets like **Pico CSS** or **Water.css** for docs, portfolios, and static markdown sites.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CSS-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CSS-Frameworks&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork this repository.
+2. 📝 Add or edit entries in `README.md` maintaining proper alphabetical/star-sorted order and factual links.
+3. 💬 Open a Pull Request with a clear description of your contribution.
+
+---
+
+## 💖 Support & Sponsor
+
+Thank you for exploring and utilizing this curated index! 🌟
+
+If you find this repository helpful for your projects, team, or frontend career, please consider:
+- ⭐ **Starring** the repository to help others discover it
+- 🍴 **Forking** and contributing new tools or corrections
+- 📢 **Sharing** with fellow developers and designers
+- ☕ **Sponsoring a coffee** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Your support keeps this ecosystem up-to-date, transparent, and comprehensive!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** — not exhaustive and not a commercial endorsement.
+- CSS frameworks must respect licensing terms. Permissive licenses (MIT, BSD-3-Clause) allow commercial re-distribution.
+- Market shares and financial benchmarks represent curated industry data as of late 2026.
+
+---
+
+<p align="center">
+  <b>Crafted with ❤️ for frontend engineers, UI/UX designers, and open-source advocates.</b>
+</p>
