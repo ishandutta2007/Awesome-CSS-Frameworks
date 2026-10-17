@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CSS-Frameworks?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-CSS-Frameworks?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-CSS-Frameworks?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-CSS-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-CSS-Frameworks?color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -29,7 +29,7 @@ This repository tracks notable **SaaS platforms** and **open-source frameworks**
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
 - [🚀 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [⭐ Ranked by GitHub_Stars](#-ranked-by-github-stars)
 - [💡 Modern CSS Stack Recommendations](#-modern-css-stack-recommendations)
 - [📈 Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -58,9 +58,9 @@ The market dynamics exhibit a **moderately fragmented yet top-heavy distribution
 
 ## 🚀 Open-Source GitHub Projects
 
-### ⭐ Ranked by GitHub Stars
+### ⭐ Ranked by GitHub_Stars
 
-| Repository | GitHub Stars | License | Description |
+| Repository | GitHub_Stars | License | Description |
 | :--- | :--- | :--- | :--- |
 | **[twbs/bootstrap](https://github.com/twbs/bootstrap)** | <a href="https://github.com/twbs/bootstrap/stargazers"><img src="https://img.shields.io/github/stars/twbs/bootstrap?style=social&color=white" alt="Bootstrap Stars" /></a> | MIT | 🌐 **The most popular HTML, CSS, and JS framework for responsive, mobile-first web projects.** Powers over 74% of known CSS framework websites. Version 5 features CSS custom properties, utility APIs, and zero jQuery dependency. |
 | **[shadcn-ui/ui](https://github.com/shadcn-ui/ui)** | <a href="https://github.com/shadcn-ui/ui/stargazers"><img src="https://img.shields.io/github/stars/shadcn-ui/ui?style=social&color=white" alt="shadcn/ui Stars" /></a> | MIT | 🧩 **Beautifully designed, accessible components that you can copy and paste into your apps.** Combines Radix UI primitives with Tailwind CSS, giving developers direct source code ownership. |
